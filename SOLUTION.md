@@ -1,33 +1,25 @@
-# Lösning – Case 02
+# Lösning
 
-## Steg 1 – Gör en ändring och skapa en commit
-
-```bash
-git add .
-git commit -m "Min ändring"
-```
-
-## Steg 2 – Skapa den rätta branchen
+## Nyckelkommandon
 
 ```bash
-git switch -c feature-ny-rubrik
-```
-
-Din commit följer automatiskt med till den nya branchen.
-
-## Steg 3 – Gå tillbaka till den felaktiga branchen
-
-```bash
+git log --oneline
+git switch feature-ny-rubrik
+git cherry-pick <commit>
 git switch case-02-fel-branch
-```
-
-## Steg 4 – Ta bort den felaktiga commiten
-
-```bash
 git reset --hard HEAD~1
+git status
 ```
 
-## Kontrollera resultatet
+## Därför händer det
 
-- `feature-ny-rubrik` innehåller din commit.
-- `case-02-fel-branch` är återställd till sitt ursprungliga läge.
+Commits tillhör den branch där de skapades.
+
+Om du råkar arbeta i fel branch kan du flytta commiten till rätt branch med `git cherry-pick` och sedan ta bort den från den felaktiga branchen.
+
+## Tips
+
+- Använd `git log --oneline` för att hitta commit-hashen.
+- Kontrollera att du står i rätt branch innan du kör `git cherry-pick`.
+- Kontrollera att commiten finns i `feature-ny-rubrik`.
+- Kontrollera med `git status` att allt är klart.

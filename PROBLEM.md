@@ -2,16 +2,18 @@
 
 ## Scenario
 
-Du har arbetat i branchen `case-02-fel-branch`.
+Du arbetar i branchen `case-02-fel-branch`.
 
-Efter att du har gjort dina ändringar och skapat en commit upptäcker du att arbetet egentligen skulle ha gjorts i branchen `feature-ny-rubrik`.
+Du har gjort en ändring i projektet och skapat en commit.
+
+Efteråt upptäcker du att arbetet egentligen skulle ha gjorts i branchen `feature-ny-rubrik`.
 
 ## Din uppgift
 
-- Gör en mindre ändring i projektet.
-- Skapa en commit.
-- Flytta ditt arbete från `case-02-fel-branch` till `feature-ny-rubrik`.
-- Kontrollera att din commit finns i `feature-ny-rubrik`.
-- Återställ `case-02-fel-branch` så att den inte längre innehåller din commit.
+1. Gör en mindre ändring i projektet.
+2. Skapa en commit i `case-02-fel-branch`.
+3. Flytta din commit till `feature-ny-rubrik`.
+4. Kontrollera att din commit finns i `feature-ny-rubrik`.
+5. Återställ `case-02-fel-branch` så att den inte längre innehåller din commit.
 
 > **Tips:** Kontrollera alltid vilken branch du arbetar i innan du börjar utveckla.
