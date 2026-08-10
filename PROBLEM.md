@@ -2,14 +2,18 @@
 
 ## Scenario
 
-En annan utvecklare har gjort ändringar i projektets `main`-branch efter att du skapade din branch.
+Du arbetar i branchen `case-01-glomde-pull`.
 
-Du har redan börjat arbeta i din branch utan att först hämta de senaste ändringarna från `main`.
+Branchen innehåller en äldre version av projektet. Under tiden har nya ändringar gjorts och pushats till `main`.
+
+Du har redan börjat arbeta i din branch och behöver nu hämta in den senaste versionen från `main` utan att förlora dina egna ändringar.
 
 ## Din uppgift
 
-- Gör en egen ändring i projektet.
-- Hämta de senaste ändringarna från `main` till din branch.
-- Kontrollera att din branch innehåller både dina egna ändringar och de senaste ändringarna från `main`.
+1. Gör en egen mindre ändring i `case-01-glomde-pull`.
+2. Kontrollera vilken branch du arbetar i.
+3. Hämta de senaste ändringarna från `main`.
+4. Lägg in ändringarna från `main` i din branch.
+5. Kontrollera att din branch nu innehåller både dina egna ändringar och den senaste versionen från `main`.
 
-> **Tips:** Kontrollera först vilka brancher som finns och se till att du arbetar i rätt branch innan du hämtar in ändringarna.
+> **Tips:** Jämför projektet före och efter att du hämtat in ändringarna från `main`.

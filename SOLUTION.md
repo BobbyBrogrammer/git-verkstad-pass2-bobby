@@ -1,36 +1,24 @@
-# Lösning – Case 01
+# Lösning
 
-## Steg 1 – Kontrollera vilken branch du arbetar i
+## Nyckelkommandon
 
 ```bash
 git branch
-```
-
-## Steg 2 – Hämta den senaste informationen från GitHub
-
-```bash
+git status
 git fetch origin
-```
-
-## Steg 3 – Hämta in de senaste ändringarna från `main`
-
-```bash
 git merge origin/main
+git status
 ```
 
-> Alternativt:
+## Därför händer det
 
-```bash
-git pull origin main
-```
+Branchen `case-01-glomde-pull` skapades från en äldre version av projektet och innehåller därför inte de senaste ändringarna som finns i `main`.
 
-## Steg 4 – Kontrollera att ändringarna finns
+Git låter dig hämta den senaste informationen från GitHub och sedan lägga in ändringarna från `main` i din egen branch utan att dina egna ändringar behöver försvinna.
 
-- Kontrollera att de nya ändringarna från `main` finns i projektet.
-- Kontrollera att dina egna ändringar fortfarande finns kvar.
+## Tips
 
-## Vad lärde du dig?
-
-- Att alltid uppdatera din branch innan du fortsätter arbeta.
-- Skillnaden mellan `fetch`, `merge` och `pull`.
-- Hur du hämtar in de senaste ändringarna från `main` till din egen branch.
+- Använd `git branch` för att kontrollera att du står i `case-01-glomde-pull`.
+- Använd `git fetch origin` för att hämta den senaste informationen från GitHub.
+- I det här caset ska du lägga in den senaste versionen från `main` i din egen branch.
+- Kontrollera att både dina egna ändringar och ändringarna från `main` finns kvar efteråt.
