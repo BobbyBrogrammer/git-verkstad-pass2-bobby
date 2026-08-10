@@ -4,7 +4,7 @@
 
 ```bash
 git log --oneline
-git switch ratt-branch
+git switch case-02-ratt-branch
 git cherry-pick <commit-id>
 git switch case-02-fel-branch
 git reset --hard HEAD~1
@@ -20,6 +20,6 @@ Om du råkar arbeta i fel branch kan du flytta commiten till rätt branch med `g
 ## Tips
 
 - Använd `git log --oneline` för att hitta commit-id.
-- Kontrollera att du står i `ratt-branch` innan du kör `git cherry-pick`.
-- I det här caset ska commiten flyttas från `case-02-fel-branch` till `ratt-branch`.
+- Kontrollera att du står i `case-02-ratt-branch` innan du kör `git cherry-pick`.
+- I det här caset ska commiten flyttas från `case-02-fel-branch` till `case-02-ratt-branch`.
 - Kontrollera med `git status` att allt är klart.
