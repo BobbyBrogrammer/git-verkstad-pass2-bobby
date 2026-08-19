@@ -11,20 +11,21 @@ git push
 
 ## Därför händer det
 
-Du har gjort en mindre ändring i projektet och skapat en commit.
+Du har gjort några ändringar i projektet och skapat en commit.
 
-När du pushar din branch till GitHub finns ändringen på GitHub och kan granskas av andra.
+När du pushar din branch till GitHub finns ändringarna på GitHub och du kan öppna en Pull Request mot `main`.
 
-En Pull Request används för att föreslå att ändringarna i din branch ska slås ihop med `main`. Det gör att andra kan granska ändringarna innan de läggs in i huvudprojektet.
+En Pull Request används för att föreslå att ändringarna i din branch ska slås ihop med `main`. Innan ändringarna slås ihop ska en klasskamrat granska din kod.
 
-Ett tydligt commit-meddelande är viktigt eftersom det beskriver vad som ändrades. När du skriver ett commit-meddelande ska du tänka på vad du faktiskt har ändrat och skriva det kort och tydligt.
+Klasskamraten kan se vilka ändringar du har gjort, lämna kommentarer och ge feedback innan koden slås ihop med `main`.
 
 ## Tips
 
 - Använd `git status` för att se vilka filer som har ändrats.
 - Använd `git add .` för att lägga till ändringarna i staging.
 - Skriv ett tydligt commit-meddelande som beskriver vad du har ändrat.
-- Tänk på vad du har ändrat och varför när du skriver commit-meddelandet.
 - Pusha branchen till GitHub innan du öppnar en Pull Request.
-- I det här caset ska Pull Requesten riktas mot `main`.
+- Rikta Pull Requesten mot `main`.
 - Skriv en tydlig titel och en kort beskrivning av vad du har ändrat och varför.
+- Be en klasskamrat att granska din Pull Request.
+- Vänta med att slå ihop Pull Requesten tills granskningen är klar.
