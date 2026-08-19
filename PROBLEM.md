@@ -4,7 +4,7 @@
 
 Du arbetar i branchen `case-02-fel-branch`.
 
-Du har gjort en ändring i projektet och skapat en commit.
+Du ska gjort en ändring i projektet och skapat en commit.
 
 Efteråt upptäcker du att arbetet egentligen skulle ha gjorts i branchen `case-02-ratt-branch`.
 
