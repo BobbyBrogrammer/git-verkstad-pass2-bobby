@@ -13,4 +13,4 @@ Efteråt skapades en `.gitignore` där `.env` lades till, men filen fortsätter 
 3. Kontrollera att `.env` nu ignoreras av Git.
 4. Kontrollera att `.env` fortfarande finns kvar på datorn.
 
-> **Tips:** Att lägga till en fil i `.gitignore` räcker inte om filen redan är committad.
+> **Tips:** .gitignore påverkar bara filer som Git inte redan spårar. Om filen redan är committad måste du först sluta spåra den.
