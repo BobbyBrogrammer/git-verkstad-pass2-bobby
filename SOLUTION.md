@@ -9,20 +9,23 @@ git branch
 
 ## Därför händer det
 
-En Pull Request används för att låta andra granska ändringar innan de slås ihop med en annan branch.
+En Pull Request används för att låta andra granska ändringar innan de slås ihop med `main`.
 
-Genom att granska koden kan du upptäcka problem, ställa frågor och ge förslag på förbättringar innan ändringarna mergas.
+I det här caset ska du granska en klasskamrats Pull Request och ge feedback på ändringarna.
 
-En kommentar bör vara tydlig och handla om den specifika koden du granskar. När du skriver feedback är det viktigt att förklara vad som kan förbättras och varför.
+Genom code review kan du upptäcka problem, ställa frågor och föreslå förbättringar innan koden mergas.
+
+En kommentar bör vara tydlig och kopplad till den specifika kod du granskar. Förklara vad som kan förbättras och varför.
 
 Efter granskningen väljer du **Approve** om ändringarna ser bra ut eller **Request changes** om något behöver ändras innan Pull Requesten kan mergas.
 
 ## Tips
 
-- Kontrollera att du granskar Pull Requesten från `case-04-feature-review` till `case-04-code-review`.
-- Gå igenom alla ändringar innan du lämnar din review.
+- Öppna din klasskamrats Pull Request på GitHub.
+- Kontrollera att Pull Requesten är riktad mot `main`.
+- Gå igenom ändringarna innan du lämnar din review.
 - Lämna minst en kommentar direkt på en rad i koden.
-- Skriv tydligt vad som kan förbättras och varför.
-- Välj **Approve** om ändringarna är bra.
+- Skriv tydligt vad som är bra eller vad som kan förbättras och varför.
+- Välj **Approve** om ändringarna är redo att mergas.
 - Välj **Request changes** om något behöver ändras.
-- Tänk på att en code review ska hjälpa till att förbättra koden innan den mergas.
+- Tänk på att code review handlar om att hjälpa varandra att förbättra koden.
