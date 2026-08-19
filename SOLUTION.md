@@ -4,24 +4,28 @@
 
 ```bash
 git status
-git ls-files .env
-git rm --cached .env
-git status
-git commit -m "Stop tracking .env"
+git add .
+git commit -m "Add changes for case 03"
 git push
 ```
 
 ## Därför händer det
 
-`.env` är redan committad och spåras därför av Git. Att lägga till `.env` i `.gitignore` gör inte att Git slutar spåra en fil som redan finns i historiken.
+Du har gjort några ändringar i projektet och skapat en commit.
 
-Med `git rm --cached .env` tar du bort filen från Git men inte från datorn. Eftersom `.env` finns i `.gitignore` kommer Git sedan att ignorera filen.
+När du pushar din branch till GitHub finns ändringarna på GitHub och du kan öppna en Pull Request mot `main`.
+
+En Pull Request används för att föreslå att ändringarna i din branch ska slås ihop med `main`. Innan ändringarna slås ihop ska en klasskamrat granska din kod.
+
+Klasskamraten kan se vilka ändringar du har gjort, lämna kommentarer och ge feedback innan koden slås ihop med `main`.
 
 ## Tips
 
-- Använd `git ls-files .env` för att kontrollera om `.env` fortfarande spåras.
-- Använd `git rm --cached .env` för att ta bort `.env` från Git utan att ta bort filen från datorn.
-- Kontrollera med `git status` att `.env` inte längre är tracked.
-- Kontrollera att `.env` fortfarande finns kvar på datorn.
-- Kontrollera att `.env` finns med i `.gitignore`.
-- Committa och pusha ändringen när du har kontrollerat att allt fungerar.
+- Använd `git status` för att se vilka filer som har ändrats.
+- Använd `git add .` för att lägga till ändringarna i staging.
+- Skriv ett tydligt commit-meddelande som beskriver vad du har ändrat.
+- Pusha branchen till GitHub innan du öppnar en Pull Request.
+- Rikta Pull Requesten mot `main`.
+- Skriv en tydlig titel och en kort beskrivning av vad du har ändrat och varför.
+- Be en klasskamrat att granska din Pull Request.
+- Vänta med att slå ihop Pull Requesten tills granskningen är klar.

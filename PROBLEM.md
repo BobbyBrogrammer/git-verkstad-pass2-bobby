@@ -1,16 +1,18 @@
-# Case 05 – .env är fortfarande spårad av Git
+# Case 03 – Öppna en Pull Request
 
 ## Scenario
 
-En utvecklare har av misstag committat och pushat filen `.env` till Git.
+Du har gjort klart några ändringar i projektet och ska nu dela dem med teamet.
 
-Efteråt skapades en `.gitignore` där `.env` lades till, men filen fortsätter ändå att spåras av Git.
+Innan ändringarna kan slås ihop med `main` ska de granskas av en klasskamrat genom en Pull Request.
 
 ## Din uppgift
 
-1. Kontrollera varför `.env` fortfarande spåras av Git.
-2. Se till att Git slutar spåra `.env` utan att filen tas bort från datorn.
-3. Kontrollera att `.env` nu ignoreras av Git.
-4. Kontrollera att `.env` fortfarande finns kvar på datorn.
+1. Gör några mindre ändringar i projektet.
+2. Skapa en commit med dina ändringar.
+3. Pusha din branch till GitHub.
+4. Öppna en Pull Request mot `main`.
+5. Skriv en tydlig titel och en kort beskrivning av vad du har ändrat och varför.
+6. Be en klasskamrat att granska din Pull Request innan den slås ihop.
 
-> **Tips:** .gitignore påverkar bara filer som Git inte redan spårar. Om filen redan är committad måste du först sluta spåra den.
+> **Tips:** En Pull Request gör det möjligt för andra i teamet att granska och kommentera dina ändringar innan de läggs in i `main`.
